@@ -1,0 +1,12 @@
+mod query_builder;
+pub mod steam_user;
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(4, 4);
+    }
+}
